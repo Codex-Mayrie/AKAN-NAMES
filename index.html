@@ -10,22 +10,40 @@
 </head>
 <body>
   <div class="container">
-      <h1>GHANIAN NAMING CULTURE</h1>
+      <h1 class="ghana">GHANIAN NAMING CULTURE</h1>
     <div class="row">
       <div class="col-sm-6">
   <p>Akan is the language of the people called Akans. The Akans are the largest
       ethnic group in Ghana. The names are dependant on the day that the male or female was born.</p>
+      <img src="http://ghanaculturepolitics.com/wp-content/uploads/2016/03/grace.png" width="500px" height="400px">
 
     </div>
+    
     <div class="col-sm-6">
-        <form action="#">
+      <div class="form">
+        <h1>AKAN NAMES</h1>
+        <form class="names">
+          <label>Enter your Century</label>
+          <div class="col-sm-9">
+          <input type="number" name="birthday" placeholder="Enter your Century" id="century"></div>
           <label>Enter your Year of Birth</label>
-          <input type="number" name="birthday" placeholder="Enter your Year of Birth" id="year">
-        </form>
-      
+          <div class="col-sm-9">
+          <input type="number" name="birthday" placeholder="Enter your Year of Birth" id="year"></div>
+          <label>Enter your Month of Birth</label>
+          <div class="col-sm-9">
+          <input type="number" name="birthday" placeholder="Enter your Month of Birth" id="month"></div>
+          <label>Enter your Date of Birth</label>
+          <div class="col-sm-9">
+          <input class="date" type="number" name="birthday" placeholder="Enter your Date of Birth" id="date"></div>
+          <input  type="radio" name="gender" value="male"> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="button" value="Calculate" onclick="msg()" id="calc">
+          </form>
+      </div>
     </div>
     </div>
 </div>
+
 
 
 
