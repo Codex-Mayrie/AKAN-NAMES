@@ -1,7 +1,6 @@
-body {
-  background-image: url("../images/image1.jpeg");
+body{
+  background-image: url("image/image1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: bisque;
 }
