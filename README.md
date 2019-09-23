@@ -23,7 +23,7 @@ Live Link
 [https://github.com/shee1998/AKAN-NAMES.git](Live link of my project)
 
 Contact Information
-0745118142 or email(marywanjikumburu1@gmail.com)
+0745118142 or email(marywanjikumburu1@gmail.com). You can also get me on github or the slack channel.
 
 Licence and Copyright
 

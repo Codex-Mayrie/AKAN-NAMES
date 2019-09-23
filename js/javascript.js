@@ -17,7 +17,7 @@ let findName = () => {
 
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ['Akusua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
-let days_array = ['sunday','monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+let days_array = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 let checkGender = () => {
   var gen = document.getElementsByName("gender");
@@ -30,60 +30,60 @@ let checkGender = () => {
   }
   switch (gender) {
     case gender = "male":
-      switch (day) {  
+      switch (day) {
         case (0 || -0):
-          document.getElementById("result").innerHTML = "The day is on a "+ days_array[0]+" "+ "Your akan name is " + maleNames[0];
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[0] + " " + "Your akan name is " + maleNames[0];
           break;
         case (1 || -1):
-          document.getElementById("result").innerHTML = "The day is on a"+ days_array[1]+" "+ "Your akan name is " +  maleNames[1];
+          document.getElementById("result").innerHTML = "The day is on a" + days_array[1] + " " + "Your akan name is " + maleNames[1];
           break;
         case (2 || -2):
-          document.getElementById("result").innerHTML = "The day is on a "+ days_array[2]+" "+ "Your akan name is " + maleNames[2];
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[2] + " " + "Your akan name is " + maleNames[2];
           break;
         case (3 || -3):
-          document.getElementById("result").innerHTML = "The day is on a"+ days_array[3]+" "+ "Your akan name is " + maleNames[3];
+          document.getElementById("result").innerHTML = "The day is on a" + days_array[3] + " " + "Your akan name is " + maleNames[3];
           break;
         case (4 || -4):
-          document.getElementById("result").innerHTML = "The day is on a "+ days_array[4]+" "+ "Your akan name is " +  maleNames[4];
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[4] + " " + "Your akan name is " + maleNames[4];
           break;
         case (5 || -5):
-          document.getElementById("result").innerHTML = "The day is on a "+ days_array[5]+" "+ "Your akan name is " +  maleNames[5];
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[5] + " " + "Your akan name is " + maleNames[5];
           break;
         case (6 || -6):
-          document.getElementById("result").innerHTML = "The day is on a "+ days_array[6]+" "+ "Your akan name is " + maleNames[6];
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[6] + " " + "Your akan name is " + maleNames[6];
           break;
         default:
-        
+
       }
       break;
     case gender = "female":
       switch (day) {
         case (0 || -0):
-            document.getElementById("result").innerHTML = "The day is on a "+ days_array[0]+" "+ "Your akan name is " + femaleNames[0];
-            break;
-          case (1 || -1):
-            document.getElementById("result").innerHTML = "The day is on a"+ days_array[1]+" "+ "Your akan name is " +  femaleNames[1];
-            break;
-          case (2 || -2):
-            document.getElementById("result").innerHTML = "The day is on a "+ days_array[2]+" "+ "Your akan name is " + femaleNames[2];
-            break;
-          case (3 || -3):
-            document.getElementById("result").innerHTML = "The day is on a"+ days_array[3]+" "+ "Your akan name is " + femaleNames[3];
-            break;
-          case (4 || -4):
-            document.getElementById("result").innerHTML = "The day is on a "+ days_array[4]+" "+ "Your akan name is " +  femaleNames[4];
-            break;
-          case (5 || -5):
-            document.getElementById("result").innerHTML = "The day is on a "+ days_array[5]+" "+ "Your akan name is " +  femaleNames[5];
-            break;
-          case (6 || -6):
-            document.getElementById("result").innerHTML = "The day is on a "+ days_array[6]+" "+ "Your akan name is " + femaleNames[6];
-            break;
-          default:
-            
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[0] + " " + "Your akan name is " + femaleNames[0];
+          break;
+        case (1 || -1):
+          document.getElementById("result").innerHTML = "The day is on a" + days_array[1] + " " + "Your akan name is " + femaleNames[1];
+          break;
+        case (2 || -2):
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[2] + " " + "Your akan name is " + femaleNames[2];
+          break;
+        case (3 || -3):
+          document.getElementById("result").innerHTML = "The day is on a" + days_array[3] + " " + "Your akan name is " + femaleNames[3];
+          break;
+        case (4 || -4):
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[4] + " " + "Your akan name is " + femaleNames[4];
+          break;
+        case (5 || -5):
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[5] + " " + "Your akan name is " + femaleNames[5];
+          break;
+        case (6 || -6):
+          document.getElementById("result").innerHTML = "The day is on a " + days_array[6] + " " + "Your akan name is " + femaleNames[6];
+          break;
+        default:
+
       }
       break
     default:
-      
+
   }
 }
