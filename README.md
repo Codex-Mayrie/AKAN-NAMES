@@ -1,45 +1,48 @@
 AKAN-NAMES
 
-Author MARY MBURU
-Description
+Author[MARY MBURU]
 
--It is about Akan naming in the Ghanian culture where the user inputs his or her detais on the form provided and the akan name is displayed depending on the gender and the day of the week in which the user was born.
+DESCRIPTION:
 
-Languages/Technologies
+- It is about Akan naming in the Ghanian culture where the user inputs his or her detais on the form provided and the akan name is displayed depending on the gender and the day of the week in which the user was born.
 
--html
--css
--javascript
--bootstrap
+TECHNOLOGIES:
+- Languages:
 
-Set up instruction
+- Html
+- Css
+- Javascript
+- Bootstrap
 
-Must have strong internet connection
-Need a Desktop or smartphone
-Open the terminal via ctrl + alt + T
-Navigate to the Project
-Git initialize on the terminal
+SET UP INSTRUCTIONS:
 
-Live Link
-[https://github.com/shee1998/AKAN-NAMES.git](Live link of my project)
+- Must have strong internet connection
+- Need a Desktop or smartphone
+- Open the terminal via ctrl + alt + T
+- Navigate to the Project
+- Git initialize on the terminal
 
-Contact Information
-0745118142 or email(marywanjikumburu1@gmail.com). You can also get me on github or the slack channel.
+LIVE LINK:
+- [https://github.com/shee1998/AKAN-NAMES.git](Live link of my project)
 
-Licence and Copyright
+CONTACT INFORMATION:
 
-This is a free site and anyone can access it. Copyright @shee1998
+- 0745118142 or email(marywanjikumburu1@gmail.com). You can also get me on github or the slack channel.
 
-BDD
+LICENCE AND COPYRIGHT:
 
-Inputs that are expected
+- This is a free site and anyone can access it. Copyright @shee1998.
 
-Century- The user enters the exact century that he or she was born.
-Year-	This is the year that the user was born.
-Month	-This entails the month of the year that the user was born.
-Date-This is the day of the month in which the user was born.
+BDD:
+
+ Inputs that are expected
+
+- Century- The user enters the exact century that he or she was born.
+- Year-	This is the year that the user was born.
+- Month	-This entails the month of the year that the user was born.
+- Date-This is the day of the month in which the user was born.
 
 Outputs	expected
 
-Day that the user was born-	This will output the specific day that the user was born eg on a monday
-The Akan name	-This will output the particular akan name of the user depending on the day of the week that the user was born eg Akua
+- Day that the user was born-	This will output the specific day that the user was born eg on a monday.
+- The Akan name	-This will output the particular akan name of the user depending on the day of the week that the user was born eg Akua.
