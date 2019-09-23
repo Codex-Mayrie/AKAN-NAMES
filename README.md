@@ -3,14 +3,15 @@ AKAN-NAMES
 Author MARY MBURU
 Description
 
-it is about Akan naming in the Ghanian culture
+-It is about Akan naming in the Ghanian culture where the user inputs his or her detais on the form provided and the akan name is displayed depending on the gender and the day of the week in which the user was born.
 
 Languages/Technologies
 
-html
-css
-javascript
-bootstrap
+-html
+-css
+-javascript
+-bootstrap
+
 Set up instruction
 
 Must have strong internet connection
