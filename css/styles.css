@@ -13,6 +13,7 @@ h1 {
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bolder;
+  text-shadow: 10px 10px 10px 5px solid white;
 }
 .container p {
   font-size: 26px;
@@ -21,6 +22,7 @@ h1 {
 }
 img {
   background-color: white;
+
 }
 label {
   color: white;
